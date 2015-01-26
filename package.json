@@ -1,6 +1,6 @@
 {
   "name": "imdb-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parse IMDB HTML into JSON",
   "main": "index.js",
   "scripts": {
