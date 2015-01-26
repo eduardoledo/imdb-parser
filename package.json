@@ -1,0 +1,33 @@
+{
+  "name": "imdb-parser",
+  "version": "0.1.0",
+  "description": "Parse IMDB HTML into JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eduardoledo/imdb-parser"
+  },
+  "keywords": [
+    "imdb",
+    "parser"
+  ],
+  "author": "Eduardo Ledo <eduardo.ledo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardoledo/imdb-parser/issues"
+  },
+  "homepage": "https://github.com/eduardoledo/imdb-parser",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "co": "3.x  ",
+    "q": "^1.1.2",
+    "request": "^2.51.0"
+  }
+}
