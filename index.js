@@ -1,3 +1,5 @@
+'use strict'
+
 var Q = require('q'),
 	request = Q.denodeify(require('request')),
 	cheerio = require('cheerio');
@@ -19,7 +21,7 @@ function unique (arr, property) {
 }
 
 
-var self = {
+module.exports = {
 	getSeasonEpisodes: function(imdbId, seasonNumber) {
 		var url = 'http://www.imdb.com/title/' + imdbId + '/episodes?season=' + seasonNumber;
 		var episodes = [];
@@ -160,12 +162,9 @@ var self = {
 			}
 
 
-		    data = deep(item);
 		    //callback(err, item);
 
 		    return item;
 		});
 	}
 };
-
-module.exports = self;
