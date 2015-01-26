@@ -4,7 +4,7 @@ Parse IMDB HTML into JSON
 ## Installation
 
 ```shell
-  npm install imdb-parser --save
+npm install imdb-parser --save
 ```
 
 ## Usage
@@ -12,15 +12,15 @@ Parse IMDB HTML into JSON
 First we require the module:
 
 ````js
-	var parser = require('imdb');
+var parser = require('imdb');
 ````
 ### parser.get(imdbId)
 Retrieves basic info for the corresponding IMDB id:
 
 ````js
-	parser.get('tt0898266').then(function(info) {
-		console.log(info);
-	}); // Get basic data for 'The Big Bang Theory'
+parser.get('tt0898266').then(function(info) {
+	console.log(info);
+});
 ````
 
 This returns a js object with the following structure:
@@ -139,7 +139,7 @@ This returns
 
 
 ### parser.getEpisodeDetails(imdbId)
-Retrieves episodes list for the corresponding IMDB id:
+Retrieves episode details for the corresponding IMDB id:
 
 ````js
 parser.getEpisodeDetails('tt2176186').then(function(info) {
@@ -147,7 +147,7 @@ parser.getEpisodeDetails('tt2176186').then(function(info) {
 });
 ````
 
-This returns
+This returns:
 
 ````js
 { id: 'tt2176186',
