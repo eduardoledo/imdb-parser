@@ -161,9 +161,6 @@ module.exports = {
 	            item['cast'] = [];
 			}
 
-
-		    //callback(err, item);
-
 		    return item;
 		});
 	}
