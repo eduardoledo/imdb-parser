@@ -12,7 +12,7 @@ npm install imdb-parser --save
 First we require the module:
 
 ````js
-var parser = require('imdb');
+var parser = require('imdb-parser');
 ````
 ### parser.get(imdbId)
 Retrieves basic info for the corresponding IMDB id:
